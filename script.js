@@ -1,5 +1,7 @@
 console.log("Hello world");
 
-const Hello = () => {
-    console.log("Hello pavan!");
+const Hello = (name) => {
+    console.log(`Hello ${name}`);
 }
+
+
